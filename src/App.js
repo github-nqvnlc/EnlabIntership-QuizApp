@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import { Box, Container, Stack } from "@mui/material";
 import Start from "./components/Start";
 import Quiz from "./components/Quiz";
+import Result from "./components/Result";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Start />} />
               <Route path="/quizz" element={<Quiz />} />
+              <Route path="/result" element={<Result />} />
             </Routes>
           </Stack>
         </Box>
