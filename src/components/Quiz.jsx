@@ -62,7 +62,21 @@ function Quiz(props) {
   }
 
   if (props.error) {
-    return <Box sx={{ color: "#fff", p: 5 }}>Error: {props.error}</Box>;
+    return (
+      <>
+        <Box sx={{ color: "#fff", p: 5 }}>Error: {props.error}</Box>
+        <Button
+          sx={{
+            borderRadius: "30px",
+          }}
+          variant="contained"
+          color="error"
+          onClick={() => navigate("/")}
+        >
+          Back to home
+        </Button>
+      </>
+    );
   }
 
   const handleChange = (event) => {

@@ -8,7 +8,7 @@ import Result from "./components/Result";
 function App() {
   return (
     <div className="App">
-      <Container maxWidth="sm">
+      <Container sx={{ p: 0, m: "0 auto" }} maxWidth="sm">
         <Box sx={{ bgcolor: "#1C1A5E", height: "100vh" }}>
           <Stack
             sx={{

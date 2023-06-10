@@ -18,7 +18,7 @@ function Result() {
 
   return (
     <Stack
-      sx={{ width: "100%" }}
+      sx={{ width: { md: "100%", sm: "90%" } }}
       direction="column"
       justifyContent="center"
       alignItems="center"
@@ -28,31 +28,47 @@ function Result() {
         justifyContent="center"
         alignItems="center"
         spacing={2}
-        sx={{ bgcolor: "#fff", width: "auto", p: 5, borderRadius: "20px" }}
+        sx={{
+          bgcolor: "#fff",
+          width: "auto",
+          p: { sm: 5, xs: 2 },
+          borderRadius: "20px",
+        }}
       >
         {score && score > 5 ? (
           <>
             <img src={congrats} alt="congrats" width="150px" height="150px" />
-            <Typography variant="h4" sx={{ fontWeight: 700 }}>
+            <Typography
+              sx={{ fontWeight: 700, fontSize: { sm: "24px", xs: "18px" } }}
+            >
               Congratulations!
             </Typography>
-            <Typography sx={{ color: "#868686" }} variant="h6">
+            <Typography
+              sx={{ color: "#868686", fontSize: { sm: "24px", xs: "18px" } }}
+              variant="h6"
+            >
               Amazing good job you!
             </Typography>
           </>
         ) : (
           <>
             <img src={playAgain} alt="playAgain" width="150px" height="150px" />
-            <Typography variant="h4" sx={{ fontWeight: 700 }}>
+            <Typography
+              variant="h4"
+              sx={{ fontWeight: 700, fontSize: { sm: "24px", xs: "18px" } }}
+            >
               Completed!
             </Typography>
-            <Typography sx={{ color: "#868686" }} variant="h6">
+            <Typography
+              sx={{ color: "#868686", fontSize: { sm: "24px", xs: "18px" } }}
+              variant="h6"
+            >
               Better luck next time!
             </Typography>
           </>
         )}
         <Typography
-          sx={{ color: "#868686" }}
+          sx={{ color: "#868686", fontSize: { sm: "24px", xs: "18px" } }}
           variant="h5"
         >{`${score}/${question} correct answers in ${time} seconds`}</Typography>
         <Button
