@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/EnlabIntership-QuizApp/static/css/main.073c9b0a.css",
-    "main.js": "/EnlabIntership-QuizApp/static/js/main.1b83aae8.js",
+    "main.js": "/EnlabIntership-QuizApp/static/js/main.2df2db0d.js",
     "static/media/congrats.png": "/EnlabIntership-QuizApp/static/media/congrats.e4bb1a57c1adfdaf526d.png",
     "static/media/playagain.png": "/EnlabIntership-QuizApp/static/media/playagain.dde9882316d4a14ddec4.png",
     "static/media/quiz.png": "/EnlabIntership-QuizApp/static/media/quiz.c051f3b47ae13671c122.png",
     "index.html": "/EnlabIntership-QuizApp/index.html",
     "main.073c9b0a.css.map": "/EnlabIntership-QuizApp/static/css/main.073c9b0a.css.map",
-    "main.1b83aae8.js.map": "/EnlabIntership-QuizApp/static/js/main.1b83aae8.js.map"
+    "main.2df2db0d.js.map": "/EnlabIntership-QuizApp/static/js/main.2df2db0d.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.1b83aae8.js"
+    "static/js/main.2df2db0d.js"
   ]
 }
