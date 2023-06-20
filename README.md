@@ -1,5 +1,5 @@
 # Deploy Github Page:
-Visit website: [Quiz App](https://github-nqvnlc.github.io/EnlabIntership-QuizApp/)
+Visit website: [Quiz App](https://github-nqvnlc.github.io/QuizApp/)
 
 # Getting Started with Create React App
 
